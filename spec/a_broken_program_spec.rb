@@ -1,4 +1,4 @@
-def 'A broken program' do
+def a_broken_program do
 
   it 'raises an error when loaded' do
     expect{
