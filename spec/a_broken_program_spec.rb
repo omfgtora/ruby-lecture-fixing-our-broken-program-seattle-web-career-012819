@@ -1,4 +1,4 @@
-def a_broken_program do
+def a_broken_program
 
   do 'raises an error when loaded'
     expect{
