@@ -1,6 +1,6 @@
-def a_broken_program
+describe 'A broken program' do
 
-  do 'raises an error when loaded'
+  it 'raises an error when loaded' do
     expect{
       load 'lib/a_broken_program.rb'
     }.to raise_error
